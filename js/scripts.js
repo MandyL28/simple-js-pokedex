@@ -9,7 +9,7 @@ let pokemonList = [                                                           
  for (let i=0; 1 <pokemonList.length; i++){                     //now, how to adjust it for height or type vs age???
     if (pokemonList[i].height <=6 && pokemonList[i].height >5){
        document.write(pokemonList[i].name + " is 6ft" + " - that is short but managable");
-	document.write("<br>");
+	    document.write("\n");
     }else if (pokemonList[i].height <3){
      document.write(pokemonList[i].name + " is 2ft " + " - that's super short"); 
     }else {
