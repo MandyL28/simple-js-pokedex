@@ -1,1 +1,11 @@
-/* styles go here
+body {
+        background-color: linen;
+        color: #000080;
+        margin-left: 40px;
+}
+
+h1 {
+  color: #862A51;
+  
+}
+
