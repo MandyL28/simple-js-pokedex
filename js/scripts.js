@@ -1,8 +1,8 @@
 
 
 let pokemonList = [ //instead of personAge, it is now pokemonList
-	{name: 'Pikachu', height: 2, type: 'blue'},//instead of ages, now it is height and type (need array for type?)
-	{name: 'Bulbasaur', height: 6, type: 'red'}, 
+	{name: 'Pikachu', height: 2, type: 'electric'},//instead of ages, now it is height and type (need array for type?)
+	{name: 'Bulbasaur', height: 6, type: 'plant'}, 
 	{name: 'Charizard', height: 12, type: 'Fire'} 
     ];
     
