@@ -50,23 +50,35 @@ printArrayDetails(pokemonList2); // executes the function using ‘pokemonList2�
 */
 
 //THIRD PART OF ASSIGNMENT
+/*
+var pokemonRepository = (function () {
+   var pokemonList = [
+	{
+      name: 'Pikachu', 
+      height: 2, 
+      types: ['electric', 'shock']
+    },
+	{
+      name: 'Bulbasaur', 
+      height: 6, 
+      type: ['grass', 'poison']
+    }, 
+	{
+      name: 'Charizard', 
+      height: 12, 
+      type: ['fire', 'flying']
+      
+     } 
+   ];
 
+ function getAll() {
+   return pokemonList;
 
-let pokemonList = [ //instead of personAge, it is now pokemonList
-	{name: 'Pikachu', height: 2, type: 'electric'},//instead of ages, now it is height and type (need array for type?)
-	{name: 'Bulbasaur', height: 6, type: 'plant'}, 
-	{name: 'Charizard', height: 12, type: 'Fire'} 
-    ];
-
-let pokemonRepository = (function () {
-  let pokemonList = [];
-
+ }
+ 
   function add(pokemon) {
     pokemonList.push(pokemon);
-  }
 
-  function getAll() {
-    return pokemonList;
   }
 
   return {
@@ -74,3 +86,9 @@ let pokemonRepository = (function () {
     getAll: getAll
   };
 })();
+
+console.log( pokemonRepository.getAll() );
+*/
+
+
+
