@@ -1,6 +1,8 @@
+/* 
 
+//First part of assignment!!
 
-/*let pokemonList = [ //instead of personAge, it is now pokemonList
+let pokemonList = [ //instead of personAge, it is now pokemonList
 	{name: 'Pikachu', height: 2, type: 'electric'},//instead of ages, now it is height and type (need array for type?)
 	{name: 'Bulbasaur', height: 6, type: 'plant'}, 
 	{name: 'Charizard', height: 12, type: 'Fire'} 
@@ -17,7 +19,11 @@
     } 
  }*/
 
-	 
+
+/*
+
+//second part of assignment!!!
+
 let pokemonList = [     // Pokémon objects
   {name: 'Pikachu', height: 2, type: 'electric'},
   {name: 'Bulbasaur', height: 6, type: 'plant'}, 
@@ -41,23 +47,30 @@ function printArrayDetails(pokemonList){
 
 printArrayDetails(pokemonList); // executes the function using ‘pokemonList‘ as its input
 printArrayDetails(pokemonList2); // executes the function using ‘pokemonList2‘ as its input
+*/
 
-//NEW
-/*let repository = [
-   {name: 'Pikachu', height: 2, type: 'electric'},
-  {name: 'Bulbasaur', height: 6, type: 'plant'}, 
-  {name: 'Charizard', height: 12, type: 'Fire'} 
-];
+//THIRD PART OF ASSIGNMENT
 
-// printArrayDetails function declaration
-function printArrayDetails(){
-  for (let i = 0; i < repository.length; i++){
-    // document.write("<p>" + repository[i].name + "</p>");
-    // printing repository[i]’s other details
-    // ...
+
+let pokemonList = [ //instead of personAge, it is now pokemonList
+	{name: 'Pikachu', height: 2, type: 'electric'},//instead of ages, now it is height and type (need array for type?)
+	{name: 'Bulbasaur', height: 6, type: 'plant'}, 
+	{name: 'Charizard', height: 12, type: 'Fire'} 
+    ];
+
+let pokemonRepository = (function () {
+  let pokemonList = [];
+
+  function add(pokemon) {
+    pokemonList.push(pokemon);
   }
-}
 
-// Calling printArrayDetails function twice
-printArrayDetails();
-printArrayDetails();*/
+  function getAll() {
+    return pokemonList;
+  }
+
+  return {
+    add: add,
+    getAll: getAll
+  };
+})();
