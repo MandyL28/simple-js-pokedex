@@ -22,7 +22,7 @@ let pokemonList = [ //instead of personAge, it is now pokemonList
 
 /*
 
-//second part of assignment!!!
+//SECOND part of assignment!!!
 
 let pokemonList = [     // Pokémon objects
   {name: 'Pikachu', height: 2, type: 'electric'},
