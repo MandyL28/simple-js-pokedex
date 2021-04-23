@@ -5,7 +5,20 @@ body {
 }
 
 h1 {
+  letter-spacing: 4px;
   color: #862A51;
   
+}
+
+.poke-container{
+  display:flex;
+  align-items: space-between;
+  flex-wrap: wrap;
+}
+
+.pokemon{
+  background-color:coral;
+  border: 1px;
+
 }
 
