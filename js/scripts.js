@@ -54,7 +54,7 @@ let pokemonList = [
 
 //OK, so now printing 2 arrays
 
-
+/*
 let pokemonList = [   
   {
     name: 'Pikachu',
@@ -73,10 +73,13 @@ let pokemonList = [
   }
 
 ];
-
+*/
+/*
 function printArrayDetails(pokemonList){ 
   for (let i = 0; i < pokemonList.length; i++){
-      document.write("<p>" + pokemonList[i].name + "</p>"); 
+      document.write("<p>" +pokemonList[i].name + "</p>"); 
+      document.write("<p>" +pokemonList[i].height + "</p>"); 
+      document.write("<p>" +pokemonList[i].type + "</p>")
      // printing pokemonList[i]'s other details // ... 
     } 
   }
@@ -96,7 +99,15 @@ function printArrayDetails(pokemonList2){
     
   }
 }
+*/
 
-
-  
-
+var a = [["<p>" + "Name: Pikachu", "Height:2", "type: electric"], ["<p>" + "Name: Bulbasaur", "Height:6", "type: Grass"], ["<p>" + "Name: Charizard", "Height:2", "type: electric"]];
+ 
+for (var i in a) 
+{
+   document.write("row " + i);
+   for (var j in a[i]) 
+     {
+      document.write(" " + a[i][j]);
+     }
+}
