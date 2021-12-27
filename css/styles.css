@@ -1,24 +1,14 @@
 body {
-        background-color: linen;
-        color: #000080;
-        margin-left: 40px;
+  background-color: lightblue;
 }
 
 h1 {
-  letter-spacing: 4px;
-  color: #862A51;
-  
+  color: white;
+  text-align: center;
 }
 
-.poke-container{
-  display:flex;
-  align-items: space-between;
-  flex-wrap: wrap;
+p {
+  font-family: verdana;
+  font-size: 20px;
+  color:navy
 }
-
-.pokemon{
-  background-color:coral;
-  border: 1px;
-
-}
-
